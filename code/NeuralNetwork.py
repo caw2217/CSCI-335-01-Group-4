@@ -47,7 +47,7 @@ for i in range(10):
 plt.tight_layout()
 plt.show()
 
-# 4. Convolutional Neural Network Model
+# 4. Basic Neural Network Model
 flat_input_shape = (32*32*3,)
 model_baseline = models.Sequential([
     layers.Input(shape=(32,32,3)),
