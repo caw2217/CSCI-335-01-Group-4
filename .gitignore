@@ -1,3 +1,4 @@
 models/
 *.h5
 *.keras
+.venv/
