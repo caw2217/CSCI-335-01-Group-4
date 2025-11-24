@@ -123,7 +123,6 @@ datagen.fit(x_train)
 # use generator to train
 history_aug = cnn.fit(datagen.flow(x_train, y_train_cat, batch_size=64),
                       validation_data=(x_val, y_val_cat),
-                      steps_per_epoch=len(x_train)//64,
                       epochs=30)
 
 #7 resize images for transfer learning
@@ -165,7 +164,7 @@ plt.xlabel('predicted'); plt.ylabel('true'); plt.title('CNN Confusion Matrix')
 plt.show()
 
 #9 Save models
-os.makedirs("models", exist_ok=True)
+os.makedirs("data/models", exist_ok=True)
 cnn.save("models/cnn_from_scratch.h5")
 tl_model.save("models/mobilenetv2_head.h5")
 
