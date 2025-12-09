@@ -134,8 +134,3 @@ print("Confusion Matrix:")
 print(cm)
 
 print("Classification Report:", classification_report(y_test, y_pred))
-
-## Save models
-
-joblib.dump(rf, "models/cfr10_hog_random_forest.joblib")
-joblib.dump(svm, "models/cfr10_hog_svm.joblib")
