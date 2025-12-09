@@ -1,0 +1,9 @@
+PYTHON PACKAGE DEPENDENCIES:
+pandas
+numpy
+tensorflow and tensorflow keras
+matplotlib
+scikit-learn
+scikit-image
+Python random package
+seaborn
