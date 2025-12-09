@@ -10,3 +10,6 @@ NeuralNetwork.py is the neural network model. It contains the main CNN model use
 
 ## Traditional Models
 TraditionalModels.py trains and evaluates two traditional models, a Random Forest and a SVM. For both models, the CIFAR-10 dataset is preprocessed and features are extracted using a Histogram of Oriented Gradients (HOG) method. This is fed into each model for training. 
+
+## How to run
+To run this project, you must run the two python files in the code file. Running NeuralNetwork.py will train and display the results for our CNN. Running TraditionalModels.py will train and display the results for our Random Forest and SVM.
